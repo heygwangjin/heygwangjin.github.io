@@ -1,22 +1,61 @@
-# Setup
-title:               heygwangjin 
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 https://heygwangjin.github.io 
-baseurl:             ''
-paginate:            5
-permalink:           pretty
+# Site Info
+title:              Heygwangjin 
+tagline:            'slowly but steadily' 
+url:                http://heygwangjin.github.io
+baseurl:            ""
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
 
 # About/contact
-author:             
-  name:              Gwangjin Kim
-  url:               https://github.com/heygwangjin 
-  email:             cer3@ajou.ac.kr
+author:
+  name:             Gwangjin Kim
+  description:      I want to be a Web developer. Learning new things is so fun.
+  gravatar:         
+  contact:
+    instagram:      https://www.instagram.com/pangj1n/ 
+    github:         https://github.com/heygwangjin
+    email:          mailto:cer3@ajou.ac.kr 
+    # linkedin:     <hide>
+    # facebook:     <hide>
+    # weibo:        <hide> 
 
-# Gems
-plugins:
-  - jekyll-paginate
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Today I Learned:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - '/'
 
-# Custom vars
-version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/background.png
+  caption: Thank you for visiting my website 
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+
