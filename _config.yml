@@ -52,7 +52,7 @@ category_page: '/blog/categories/'
 
 hero:
   image: /public/img/background.png
-  caption: Thank you for visiting my website 
+  caption: Thank you for visiting my website<br>You can open my another website by clicking above image 
 
 # Puglins
 mathjax: true # whether support mathjax
