@@ -115,5 +115,5 @@ Names and GPAs of students with HS>1000 who applied to CS at college with enr>20
 
 ## Reference
 * * *
-<a href="https://hack-gogumang.tistory.com/577?category=822435">Algebra operators</a>  
-<a href="https://www.youtube.com/watch?v=tii7xcFilOA&list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3&index=9">05-01-relational-algebra-1.mp4</a>
+[Algebra operators](https://hack-gogumang.tistory.com/577?category=822435)  
+[05-01-relational-algebra-1.mp4](https://www.youtube.com/watch?v=tii7xcFilOA&list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3&index=9)
