@@ -23,7 +23,7 @@ version: 1.0.0
 # About/contact
 author:
   name:             Gwangjin Kim
-  description:      Hi! I want to be a Web Developer. Learning new things is so fun.
+  description:      Hi! I am learning about computer science in Ajou University which is located in Suwon of South Korea.
   gravatar:         345282cea9b5ee8608aa1c865f21df72 # md5 hash of your email address 
   contact:
     instagram:      https://www.instagram.com/pangj1n/ 
@@ -31,7 +31,6 @@ author:
     email:          mailto:cer3@ajou.ac.kr 
     # linkedin:     <hide>
     # facebook:     <hide>
-    # weibo:        <hide> 
 
 # Navigation (2nd level links supported)
 nav:
@@ -44,7 +43,7 @@ nav:
   About:          
     - '/about/'
   Github Project: 
-    - '/'
+    - '/myself/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
@@ -52,7 +51,7 @@ category_page: '/blog/categories/'
 
 hero:
   image: /public/img/background.png
-  caption: Thank you for visiting my website<br>You can open my another website by clicking above image 
+  caption: Thank you for visiting my website<br>You can see my posting by cliking the menu button on the top right.
 
 # Puglins
 mathjax: true # whether support mathjax
