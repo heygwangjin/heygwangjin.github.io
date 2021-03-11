@@ -10,6 +10,7 @@ categories: Database
 정리하는데 참고한 사이트는 포스팅 최하단의 Reference 부분에 작성했다. 감사의 인사를 전합니다.
 
 ## Relational Database
+* * *
 관계형 데이터베이스란 데이터를 **Relation(Table) 형태로 저장**하는 데이터베이스를 말한다.  
 
 **Schema** - 관계형 데이터베이스에서 Schema는 **Relation(table) 형태로** 되어있다.  
