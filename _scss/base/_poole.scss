@@ -110,7 +110,7 @@ p {
 }
 
 strong {
-  color: #282a36;
+  color: #f56218;
 }
 
 
@@ -333,6 +333,8 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+  font-family: $font-sans;
+  font-weight: 450;
 }
 
 /* Blog post or page title */
