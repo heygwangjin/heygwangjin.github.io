@@ -4,11 +4,8 @@ title: "[Database] Relational Algebra - select, project, join"
 tags: Database
 categories: Database 
 ---
-# Relational Algebra Operators 
-* * *
 이번 포스팅에서는 Relational Algebra의 3가지 operator를 알아본다.  
 정리하는데 참고한 사이트는 포스팅 최하단의 Reference 부분에 작성했다. 감사의 인사를 전합니다.
-
 ## Example Relations 
 * * *
 Query on set of relations **produces relation as a result**.  

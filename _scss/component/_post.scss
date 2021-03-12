@@ -1,9 +1,25 @@
+@font-face {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    src: local("Spoqa Han Sans Bold"), url(https://cdn.jsdelivr.net/gh/parksb/cdn@v1.0/font/SpoqaHanSansNeo/woff2/SpoqaHanSansNeo-Bold.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/parksb/cdn@v1.0/font/SpoqaHanSansNeo/woff/SpoqaHanSansNeo-Bold.woff) format("woff"), url(https://cdn.jsdelivr.net/gh/parksb/cdn@v1.0/font/SpoqaHanSansNeo/ttf/SpoqaHanSansNeo-Bold.ttf) format("truetype");
+    font-display:swap
+}
+
+@font-face {
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    src: local("Spoqa Han Sans Regular"), url(https://cdn.jsdelivr.net/gh/parksb/cdn@v1.0/font/SpoqaHanSansNeo/woff2/SpoqaHanSansNeo-Regular.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/parksb/cdn@v1.0/font/SpoqaHanSansNeo/woff/SpoqaHanSansNeo-Regular.woff) format("woff"), url(https://cdn.jsdelivr.net/gh/parksb/cdn@v1.0/font/SpoqaHanSansNeo/ttf/SpoqaHanSansNeo-Regular.ttf) format("truetype");
+    font-display:swap
+}
+
+// post 페이지 css 관리
 .post {
   margin-bottom: 4em;
-  font-family: Helvetica, Arial, sans-serif; 
+  font-family: Spoqa Han Sans Neo, $font-sans; 
 
   h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    color: #000;
   }
 
   @media (min-width: 38rem) {
@@ -14,14 +30,18 @@
       margin: 2em 0 1em 0;
       font-size: 1.2rem; 
     }
-    h3, h4, h5, h6 {
+    h3 {
+      margin: 2em 0 1em 0;
+      font-size: 1.0rem;
+    }
+    h4, h5, h6 {
       margin: 2em 0 1em 0;
       font-size: 0.8rem;
     }
   }
 
   .post-title {
-    color: $theme-color;
+    color: #000;
     margin-top: 0;
   }
 

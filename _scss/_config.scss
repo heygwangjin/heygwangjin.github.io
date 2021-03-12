@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Ubuntu+Mono&display=swap');
 /* Colors 
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
@@ -28,5 +29,5 @@ $overlay-sidebar: false;
 
 /* Font stack */
 $font-serif:"PT Serif", Georgia, "Times New Roman", serif;
-$font-sans: "PT Sans", Helvetica, Arial, sans-serif;
+$font-sans: "Noto Sans KR", sans-serif;
 $font-font-awesome: FontAwesome;

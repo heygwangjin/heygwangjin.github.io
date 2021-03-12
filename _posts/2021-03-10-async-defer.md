@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[JavaScript] script태그 async와 defer 속성의 차이점"
+title: "[JavaScript] script태그의 async와 defer 속성의 차이점"
 tags: JavaScript
 categories: JavaScript 
 ---
