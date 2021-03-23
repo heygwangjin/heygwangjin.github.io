@@ -35,9 +35,9 @@
   }
 
   @if $theme-color != $default {
-    background-color: $theme-color;
+    background-color: #1d1d1d;
   } @else {
-    background-color: darken($theme-color-dark, 10%);
+    background-color: #1d1d1d;// darken($theme-color-dark, 10%);
   }
 }
 @media (min-width: 30em) {
