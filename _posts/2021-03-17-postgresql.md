@@ -9,16 +9,23 @@ categories: Database
 본 포스팅에서는 맥 OS 패키지 관리자인 [Homebrew](https://brew.sh/index_ko)를 통해 PostgreSQL을 설치하고 사용 방법을 알아본다.
 ## PostgreSQL 설치
 * * *
-terminal.app 을 실행하여 아래와 같은 명령어를 사용한다.  
+terminal.app 을 실행하여 아래와 같은 명령어를 사용한다. ([Homebrew](https://brew.sh/index_ko)라는 맥 OS 전용 패키지 관리자가 설치되어 있어야 한다.)
 
-`brew install postgresql`  
-
-설치가 완료 되었으면 아래 명령어를 이용해 PostgreSQL 서비스를 시작한다.  
-
-`pg_ctl -D /usr/local/var/postgres start && brew services start postgresql`
-
-서비스가 정상적으로 실행됐는지 확인하기 위해, 아래 명령어를 사용하여 확인한다.  
-`postgres -V`
+```
+brew install postgresql
+```
+설치가 끝나면 설치가 잘 됐는지 확인하기 위해 아래의 명령어를 실행한다.
+```
+postgres -V
+```
+버전이 잘 확인되면, 아래 두 명령어들 중 하나를 이용해 PostgreSQL 서비스를 시작한다.
+```
+pg_ctl -D /usr/local/var/postgres start
+```
+혹은  
+```
+brew services start postgresql
+```
 
 ## PostgreSQL CLI 사용하기 
 * * *
